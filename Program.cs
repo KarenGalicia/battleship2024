@@ -66,10 +66,9 @@ namespace BattleShip
 
         public GameEngine()
         {
-            playerShips = new Ships(this, 5);
-            HintCount = 1;
+            playerShips = new Ships(this, 6);
+            HintCount = 3;
             Attempts = 25;
-
         }
         
 public void ComputerAttack()
