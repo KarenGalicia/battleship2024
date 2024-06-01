@@ -159,12 +159,13 @@ public void ComputerAttack()
                     break;
             }
         }
-        
+       
         private void InitializeIslands()
         {
-            playerIsland = [];
-            enemyIsland = [];
-            enemyIslandCover = [];
+            playerIsland = new List<char>();
+            playerIsland = new List<char>(); 
+            enemyIsland = new List<char>();
+            enemyIslandCover = new List<char>();
 
             for (int i = 0; i < 100; i++)
             {
